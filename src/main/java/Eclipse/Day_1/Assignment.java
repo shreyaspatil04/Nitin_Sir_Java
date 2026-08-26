@@ -484,4 +484,154 @@ ABCDCBA
 	}
 	*/
 //
+
+
+
+
+
+
+
+
+    /// arithmetic operator assignment
+    //
+    //	/*
+    //	// 1) accept two numbers and add them.
+    //	2) accept two numbers and subtract them.
+    //	3) accept two numbers and multiply them.
+    //	4) accept two numbers and devide them.
+    //	5) accept two numbers and check whether first number is greater or second number is greater or they are equal.
+    //	6) accept a number and check whether it is divisible by 3 or not.
+    //
+    //	*/
+    //
+    //
+    //	/*
+    //	//1
+    //	public static void main(String[] args) {
+    //
+    //		Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter number 1 : ");
+    //		int n1= sc.nextInt();
+    //
+    //		System.out.println("Enter number 2 : ");
+    //		int n2= sc.nextInt();
+    //
+    //		int c = n1+n2;
+    //
+    //		System.out.println("Answer is : "+c);
+    //	}
+    //
+    //	*/
+    //
+    //	/*
+    //	public static void main(String[] args) {
+    //
+    //		Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter number 1 : ");
+    //		int n1= sc.nextInt();
+    //
+    //		System.out.println("Enter number 2 : ");
+    //		int n2= sc.nextInt();
+    //
+    //		int c = n1-n2;
+    //
+    //		System.out.println("Answer is : "+c);
+    //	}
+    //
+    //	*/
+    //
+    //
+    //	/*
+    //
+    //	// 3 Multiply
+    //
+    //	public static void main(String[] args) {
+    //
+    //		Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter number 1 : ");
+    //		int n1= sc.nextInt();
+    //
+    //		System.out.println("Enter number 2 : ");
+    //		int n2= sc.nextInt();
+    //
+    //		int c = n1*n2;
+    //
+    //		System.out.println("Answer is : "+c);
+    //	}
+    //	*/
+    //
+    //
+    //	/*
+    //	// 4
+    //
+    //	public static void main(String[] args) {
+    //
+    //		Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter number 1 : ");
+    //		int n1= sc.nextInt();
+    //
+    //		System.out.println("Enter number 2 : ");
+    //		int n2= sc.nextInt();
+    //
+    //		int c = n1/n2;
+    //
+    //		System.out.println("Answer is : "+c);
+    //	}
+    //	*/
+    //
+    //
+    //
+    //	/*
+    //	// 5
+    //
+    //	public static void main(String[] args) {
+    //	//	accept two numbers and check whether first number is greater or second number is greater or they are equal.
+    //
+    //Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter number 1 : ");
+    //		int n1= sc.nextInt();
+    //
+    //		System.out.println("Enter number 2 : ");
+    //		int n2= sc.nextInt();
+    //
+    //		if(n1>n2) {
+    //			System.out.println("n1 is greater");
+    //		}else if(n2> n1){
+    //			System.out.println("n2 is greater");
+    //		}else {
+    //			System.out.println("both are equal");
+    //		}
+    //
+    //	}
+    //
+    //	*/
+    //
+    //
+    //
+    //	/*
+    //	// 6 accept a number and check whether it is divisible by 3 or not.
+    //
+    //	public static void main(String[] args) {
+    //		Scanner sc = new Scanner(System.in);
+    //
+    //		System.out.println("Enter Number : ");
+    //		int n1= sc.nextInt();
+    //
+    //		if(n1 % 3 == 0) {
+    //			System.out.println("Yes ! divisible by 3 ");
+    //		}else {
+    //			System.out.println("No ! its not divisible by 3 ");
+    //		}
+    //
+    //	}
+    //	*/
+    //}
+
+
+
 }
