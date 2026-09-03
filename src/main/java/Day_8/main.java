@@ -1501,7 +1501,7 @@ public class Demo
 
 
 
-
+/*
 public class main {
     static void main() {
         Choose_Color s1 = new Choose_Color();
@@ -1527,6 +1527,61 @@ class Choose_Color{
             case Black -> System.out.println("Your color is Black..");
 
         }
+    }
+}
+
+
+
+ */
+
+
+
+public class main {
+    static void main() {
+        Show s1 = new Show();
+        s1.zoo(new Dog());
+        s1.zoo(new Cat());
+        s1.zoo(new Tiger());
+    }
+}
+
+class Show{
+    private Animal ref;
+    void zoo(Animal ref){
+        this.ref = ref;
+        this.ref.run();
+
+        if(ref instanceof Tiger){
+            Tiger t = (Tiger)ref;
+            t.hunt();
+        }
+    }
+}
+
+class Animal {
+    void run(){
+        System.out.println("Animal is running...");
+    }
+}
+
+class Dog extends Animal{
+    void run(){
+        System.out.println("Dog is running");
+    }
+}
+
+class Cat extends Animal{
+    void run(){
+        System.out.println("cat is running");
+    }
+}
+
+class Tiger extends Animal{
+    void run(){
+        System.out.println("Tiger is runnung");
+    }
+    void hunt(){
+        System.out.println("tiger is hunting");
     }
 }
 

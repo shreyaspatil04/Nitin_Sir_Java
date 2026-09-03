@@ -998,10 +998,41 @@ class car {
 
  */
 
-// downcasting code practice animal tiger
 
-public class main{
-    static void main() {
 
+
+
+
+
+
+
+class MyNum{
+
+    int num;
+
+    MyNum(int num){
+        this.num = num;
+    }
+
+    public boolean equals(Object ref) {
+	MyNum temp = (MyNum) ref;
+        return this.num == temp.num;
+    }
+
+}
+
+public class main {
+    public static void main(String[] args) {
+        Object m1 = new MyNum(200);
+        MyNum m2 = new MyNum(200);
+
+        if(m1.equals(m2)) {
+            System.out.println("Equal");
+        }else {
+            System.out.println("Not Equal");
+        }
     }
 }
+
+// downcasting code practice animal tiger
+
